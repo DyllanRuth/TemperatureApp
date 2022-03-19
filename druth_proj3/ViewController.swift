@@ -31,6 +31,7 @@ class ViewController: UIViewController {
     }
     @IBAction func F2C(_ sender: Any) {
         view.endEditing(true)
+        //Test
         if let tInTx = Float(FarenheitInput.text!){
             let tInPx = (tInTx-32.0)*5.0/9.0
             print(tInPx)
